@@ -1,0 +1,95 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+:root{
+    --textColor:#fff;
+    --buttonColor:hsla(120, 42%, 54%, 1);
+    --bgColor:rgb(147,112,219);
+    --formbgColor:rgba(37, 31, 68, 0.8);
+
+}
+html,body {
+    margin:0px;
+    padding:0px;
+    background-color:var(--bgColor)
+}
+   
+p {
+    font-family: 'Ubuntu';
+    text-align: center;
+    margin: 10px auto 30px auto;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+
+}
+
+
+h1{
+    margin:2px auto 0px auto;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+h5 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem ;
+    letter-spacing: 1px;
+}
+input{
+    border-radius:5%;
+    border: none;    
+    padding:5px;
+    font-size: 0.8rem;
+    
+}
+label{
+    line-height: 1.5rem;
+    display: block;
+}
+.surveyformbody{
+    color: var(--textColor);  
+    width:40%;
+    height:100%; 
+    margin:2rem auto 0 auto;
+    }
+
+.wrapper {
+    background-color:var(--formbgColor) ;
+    padding:25px 20px 20px 20px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem ;
+    letter-spacing: 1px;
+}
+.info-name,.info-email, .info-age, .info-roles, .form-options, .form-checkbox, .form-radio {
+    padding-bottom:15px;
+}
+
+#name, #email, #number {
+    width:95%;
+}
+
+
+#dropdown, #features {
+    width:97%;
+    height:1.7rem;
+    
+}
+
+#comments{
+    width:95%
+
+}
+
+#submit {
+    background-color:var(--buttonColor);
+    color: var(--textColor);
+    margin:1.5rem 0px;
+    height: 2rem;
+    width: 95%;
+    border-radius: 0%;
+}
